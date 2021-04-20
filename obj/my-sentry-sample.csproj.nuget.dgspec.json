@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/gonza/Desktop/src/my-sentry-sample/my-sentry-sample.csproj": {}
+  },
+  "projects": {
+    "/home/gonza/Desktop/src/my-sentry-sample/my-sentry-sample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gonza/Desktop/src/my-sentry-sample/my-sentry-sample.csproj",
+        "projectName": "my-sentry-sample",
+        "projectPath": "/home/gonza/Desktop/src/my-sentry-sample/my-sentry-sample.csproj",
+        "packagesPath": "/home/gonza/.nuget/packages/",
+        "outputPath": "/home/gonza/Desktop/src/my-sentry-sample/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/gonza/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Sentry": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Sentry.Aspnetcore": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
